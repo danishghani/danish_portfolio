@@ -143,7 +143,7 @@ function ProjectCard({ name, description }: { name: string; description: string 
 function Testimonial({ text, author }: { text: string; author: string }) {
   return (
     <div className="bg-gray-900/80 rounded-xl shadow p-6 border-l-4 border-primary hover:scale-105 transition-transform duration-300 cursor-pointer">
-      <p className="italic mb-2 text-gray-100">"{text}"</p>
+      <p className="italic mb-2 text-gray-100">&quot;{text}&quot;</p>
       <p className="text-right font-semibold text-primary">- {author}</p>
     </div>
   );
